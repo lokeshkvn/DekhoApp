@@ -6,6 +6,9 @@ package com.dekhoapp.android.app.base;
 
 public class MusicModel {
 
+    public MusicModel(){
+    }
+
     String name ;
 
     public MusicModel(String name) {

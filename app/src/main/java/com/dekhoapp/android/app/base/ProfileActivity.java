@@ -122,6 +122,8 @@ public class ProfileActivity extends BaseActivity implements
     }
 
 
+
+
     @Override
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);

@@ -1,7 +1,5 @@
 package com.dekhoapp.android.app.base;
 
-import android.util.Log;
-
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -16,7 +14,7 @@ import java.util.ArrayList;
 public class FirebaseHelperGrid {
     DatabaseReference db;
     Boolean saved=null;
-    ArrayList<MusicModel> musicModel=new ArrayList<>();
+    ArrayList<MusicModel> musicModel=new ArrayList<MusicModel>();
 
     public FirebaseHelperGrid(DatabaseReference db) {
         this.db = db;
@@ -31,9 +29,9 @@ public class FirebaseHelperGrid {
             musicModel.add(MusicName);
         }
 
-        for (MusicModel s : musicModel){
-            Log.d("music content : ", s.name);
-        }
+//        for (MusicModel s : musicModel){
+//            Log.d("music content : ", s.name);
+//        }
 
     }
 
