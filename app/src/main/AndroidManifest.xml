@@ -49,6 +49,9 @@
         <activity android:name="com.dekhoapp.android.app.base.AccessCameraActivity"
             android:theme="@style/MaterialCamera.CaptureActivity">
         </activity>
+        <activity android:name="com.dekhoapp.android.app.base.DekhoApp"
+            android:theme="@style/MaterialCamera.CaptureActivity">
+        </activity>
         <activity
             android:name="com.afollestad.materialcamera.CaptureActivity"
             android:theme="@style/MaterialCamera.CaptureActivity"

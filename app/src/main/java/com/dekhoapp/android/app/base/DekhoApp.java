@@ -28,12 +28,13 @@ public class DekhoApp extends AppCompatActivity {
 
         db= FirebaseDatabase.getInstance().getReference("Lokesh").child("Music");
         helper=new FirebaseHelperGrid(db);
+
+
     }
 
     @Override
     protected void attachBaseContext(Context base) {
         super.attachBaseContext(base);
         MultiDex.install(this);
-
     }
 }
