@@ -31,9 +31,10 @@ public class FirebaseHelperGrid {
             musicModel.add(MusicName);
         }
 
-        for (MusicModel member : musicModel){
-            Log.i(member);
+        for (MusicModel s : musicModel){
+            Log.d("music content : ", s.name);
         }
+
     }
 
     public ArrayList<MusicModel> retrive(){
@@ -49,6 +50,7 @@ public class FirebaseHelperGrid {
             }
             @Override
             public void onChildRemoved(DataSnapshot dataSnapshot) {
+
             }
             @Override
             public void onChildMoved(DataSnapshot dataSnapshot, String s) {
